@@ -3,7 +3,8 @@ export default function Match(props) {
     display: "flex",
     justifyContent: "space-between",
     background: "#e5e5e5",
-    height:"75px",
+    height: "75px",
+    border:"1px solid rgb(0, 45, 41)"
   };
 
   const teamStyle = {
@@ -11,7 +12,7 @@ export default function Match(props) {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    fontSize: "12px",
+    fontSize: "15px",
     width: "20%",
   };
 
@@ -21,7 +22,7 @@ export default function Match(props) {
   };
 
   const dateStyle = {
-    background: "#312d2c",
+    background: "#155219",
     color: "#fff",
     padding: "20px",
     display: "flex",
@@ -32,24 +33,26 @@ export default function Match(props) {
     display: "flex",
     alignItems: "center",
     fontSize: "20px",
+    background: "#fff",
+    padding: "0 20px",
   };
 
   const infoStyle = {
     background: "green",
     color: "white",
     alignItems: "center",
-    justifyContent:"center",
+    justifyContent: "center",
     display: "flex",
     padding: "0 15px",
     fontSize: "30px",
-    width:"1%",
-    cursor:"pointer"
+    width: "1%",
+    cursor: "pointer",
   };
   return (
     <>
       <div style={style}>
         <div style={dateStyle}>
-          <div>{props.date}</div>
+          <b>{props.date}</b>
         </div>
         <div style={teamStyle}>
           <div>

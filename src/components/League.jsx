@@ -1,9 +1,26 @@
 import Match from "./Match";
 
 export default function League(props) {
+  const imgStyle = {
+    width: "20px",
+    height: "100%",
+  };
   return (
-    <div style={{marginBottom:"20px"}}>
-    <div style={{background:"#002d29",color:"#fff",display:"flex",justifyContent:"center",fontSize:"20px"}}>{props.matches[0].league.name}</div>
+    <div style={{ marginBottom: "20px" }}>
+      <div
+        style={{
+          background: "#002d29",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems:"center",
+          fontSize: "20px",
+        }}
+      >
+        <img src={props.matches[0].country.flag} style={imgStyle}></img>
+        <div style={{margin:"0 5%"}}>{props.matches[0].league.name}</div>
+        <img src={props.matches[0].country.flag} style={imgStyle}></img>
+      </div>
       {props.matches.map((m) => {
         return (
           <>
@@ -16,7 +33,9 @@ export default function League(props) {
               team2score={m.scores.home.total}
               team1logo={m.teams.away.logo}
               team2logo={m.teams.home.logo}
-            >{props.matches.length}</Match>
+            >
+              {props.matches.length}
+            </Match>
           </>
         );
       })}
