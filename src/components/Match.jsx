@@ -1,6 +1,18 @@
 import { FaSquarePlus } from "react-icons/fa6";
 
 export default function Match(props) {
+  let homeScore = 0;
+  let awayScore = 0;
+  homeScore += parseInt(props.scores["1stQuarter"][0]?.score_home);
+  homeScore += parseInt(props.scores["2ndQuarter"][0]?.score_home);
+  homeScore += parseInt(props.scores["3rdQuarter"][0]?.score_home);
+  homeScore += parseInt(props.scores["4thQuarter"][0]?.score_home);
+
+  awayScore += parseInt(props.scores["1stQuarter"][0]?.score_away);
+  awayScore += parseInt(props.scores["2ndQuarter"][0]?.score_away);
+  awayScore += parseInt(props.scores["3rdQuarter"][0]?.score_away);
+  awayScore += parseInt(props.scores["4thQuarter"][0]?.score_away);
+
   const style = {
     display: "flex",
     justifyContent: "space-between",
@@ -30,6 +42,7 @@ export default function Match(props) {
     alignItems: "center",
     justifyContent: "center",
     width: "60px",
+    textAlign: "center",
   };
 
   const dateStyleFinished = {
@@ -39,6 +52,7 @@ export default function Match(props) {
     alignItems: "center",
     justifyContent: "center",
     width: "60px",
+    textAlign: "center",
   };
 
   const dateStylePlaying = {
@@ -48,6 +62,7 @@ export default function Match(props) {
     alignItems: "center",
     justifyContent: "center",
     width: "60px",
+    textAlign: "center",
   };
 
   const scoreStyle = {
@@ -93,8 +108,18 @@ export default function Match(props) {
         </div>
         <div>{props.team1}</div>
       </td>
-      <td style={scoreStyle}>{props.team1score}</td>
-      <td style={scoreStyle}>{props.team2score}</td>
+      {props.status != "" && (
+        <>
+          <td style={scoreStyle}>{homeScore}</td>
+          <td style={scoreStyle}>{awayScore}</td>
+        </>
+      )}
+      {props.status == "" && (
+        <>
+          <td style={scoreStyle}>-</td>
+          <td style={scoreStyle}>-</td>
+        </>
+      )}
       <td style={teamStyle}>
         <div>
           <img src={props.team2logo} style={teamsStyleImg}></img>

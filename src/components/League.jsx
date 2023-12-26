@@ -51,11 +51,10 @@ export default function League(props) {
               team1={m.event_home_team}
               team2={m.event_away_team}
               date={m.event_time}
-              team1score={0}
-              team2score={0}
               team1logo={m.event_home_team_logo}
               team2logo={m.event_away_team_logo}
               status={m.event_status}
+              scores={m.scores}
             />
           );
         })}

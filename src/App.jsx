@@ -14,7 +14,9 @@ function App() {
     };
 
     fetch(
-      `https://apiv2.allsportsapi.com/basketball/?met=Fixtures&APIkey=${import.meta.env.REACT_APP_TOKEN}&from=2023-12-26&to=2023-12-26&timezone=America/Argentina/Buenos_Aires`,
+      `https://apiv2.allsportsapi.com/basketball/?met=Fixtures&APIkey=${
+        import.meta.env.REACT_APP_TOKEN
+      }&from=2023-12-26&to=2023-12-26&timezone=America/Argentina/Buenos_Aires`,
       requestOptions
     )
       .then((response) => response.json())
@@ -75,5 +77,4 @@ function App() {
     </>
   );
 }
-
 export default App;
