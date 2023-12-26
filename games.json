@@ -1,0 +1,2911 @@
+{
+  "data": [
+    {
+      "id": 384321,
+      "date": "2023-12-25T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1703469600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 116,
+        "name": "NCAA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/116.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media-4.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1926,
+          "name": "Georgia Tech",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1926.png"
+        },
+        "away": {
+          "id": 2032,
+          "name": "Nevada",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2032.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 0,
+          "quarter_2": 30,
+          "quarter_3": 0,
+          "quarter_4": 34,
+          "over_time": null,
+          "total": 64
+        },
+        "away": {
+          "quarter_1": 0,
+          "quarter_2": 36,
+          "quarter_3": 0,
+          "quarter_4": 36,
+          "over_time": null,
+          "total": 72
+        }
+      }
+    },
+    {
+      "id": 364524,
+      "date": "2023-12-25T05:00:00+00:00",
+      "time": "05:00",
+      "timestamp": 1703480400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 91,
+        "name": "KBL",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/91.png"
+      },
+      "country": {
+        "id": 44,
+        "name": "South Korea",
+        "code": "KR",
+        "flag": "https://media-4.api-sports.io/flags/kr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1111,
+          "name": "Wonju DB",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1111.png"
+        },
+        "away": {
+          "id": 1107,
+          "name": "Mobis Phoebus",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1107.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 20,
+          "quarter_3": 28,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 102
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 28,
+          "quarter_3": 26,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 92
+        }
+      }
+    },
+    {
+      "id": 351827,
+      "date": "2023-12-25T06:30:00+00:00",
+      "time": "06:30",
+      "timestamp": 1703485800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "12",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 1,
+        "name": "NBL",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/1.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media-4.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3185,
+          "name": "Tasmania JackJumpers",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3185.png"
+        },
+        "away": {
+          "id": 2,
+          "name": "South East Melbourne",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 12,
+          "quarter_2": 28,
+          "quarter_3": 22,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 77
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 20,
+          "quarter_3": 22,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 85
+        }
+      }
+    },
+    {
+      "id": 364522,
+      "date": "2023-12-25T07:00:00+00:00",
+      "time": "07:00",
+      "timestamp": 1703487600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 91,
+        "name": "KBL",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/91.png"
+      },
+      "country": {
+        "id": 44,
+        "name": "South Korea",
+        "code": "KR",
+        "flag": "https://media-4.api-sports.io/flags/kr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1105,
+          "name": "KCC Egis",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1105.png"
+        },
+        "away": {
+          "id": 3081,
+          "name": "KoGas",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3081.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 24,
+          "quarter_3": 18,
+          "quarter_4": 30,
+          "over_time": null,
+          "total": 96
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 24,
+          "quarter_3": 17,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 90
+        }
+      }
+    },
+    {
+      "id": 364523,
+      "date": "2023-12-25T07:00:00+00:00",
+      "time": "07:00",
+      "timestamp": 1703487600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 91,
+        "name": "KBL",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/91.png"
+      },
+      "country": {
+        "id": 44,
+        "name": "South Korea",
+        "code": "KR",
+        "flag": "https://media-4.api-sports.io/flags/kr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1108,
+          "name": "Seoul Knights",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1108.png"
+        },
+        "away": {
+          "id": 1109,
+          "name": "Seoul Thunders",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1109.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 25,
+          "quarter_2": 20,
+          "quarter_3": 20,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 89
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 18,
+          "quarter_3": 17,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 74
+        }
+      }
+    },
+    {
+      "id": 381074,
+      "date": "2023-12-25T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1703491200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 153,
+        "name": "Commissioners Cup",
+        "type": "cup",
+        "season": 2023,
+        "logo": "https://media-4.api-sports.io/basketball/leagues/153.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media-4.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2775,
+          "name": "San Miguel Beermen",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2775.png"
+        },
+        "away": {
+          "id": 2773,
+          "name": "Phoenix Fuelmasters",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2773.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 30,
+          "quarter_2": 24,
+          "quarter_3": 25,
+          "quarter_4": 38,
+          "over_time": null,
+          "total": 117
+        },
+        "away": {
+          "quarter_1": 34,
+          "quarter_2": 24,
+          "quarter_3": 22,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 96
+        }
+      }
+    },
+    {
+      "id": 351828,
+      "date": "2023-12-25T08:30:00+00:00",
+      "time": "08:30",
+      "timestamp": 1703493000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "12",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 1,
+        "name": "NBL",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/1.png"
+      },
+      "country": {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "flag": "https://media-4.api-sports.io/flags/au.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4,
+          "name": "Sydney",
+          "logo": "https://media-4.api-sports.io/basketball/teams/4.png"
+        },
+        "away": {
+          "id": 6,
+          "name": "Illawarra Hawks",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 29,
+          "quarter_2": 19,
+          "quarter_3": 25,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 90
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 29,
+          "quarter_3": 31,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 94
+        }
+      }
+    },
+    {
+      "id": 371782,
+      "date": "2023-12-25T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1703494800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 92,
+        "name": "WKBL W",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/92.png"
+      },
+      "country": {
+        "id": 44,
+        "name": "South Korea",
+        "code": "KR",
+        "flag": "https://media-4.api-sports.io/flags/kr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1113,
+          "name": "KB Stars W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1113.png"
+        },
+        "away": {
+          "id": 3112,
+          "name": "Woori WON W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3112.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 15,
+          "quarter_3": 20,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 73
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 15,
+          "quarter_3": 13,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 61
+        }
+      }
+    },
+    {
+      "id": 382460,
+      "date": "2023-12-25T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1703494800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 397,
+        "name": "National League Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/397.png"
+      },
+      "country": {
+        "id": 25,
+        "name": "Kazakhstan",
+        "code": "KZ",
+        "flag": "https://media-4.api-sports.io/flags/kz.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3814,
+          "name": "Pavlodar W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3814.png"
+        },
+        "away": {
+          "id": 6008,
+          "name": "Barsy Atyrau W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6008.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 8,
+          "quarter_3": 22,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 75
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 7,
+          "quarter_3": 13,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 51
+        }
+      }
+    },
+    {
+      "id": 381075,
+      "date": "2023-12-25T10:30:00+00:00",
+      "time": "10:30",
+      "timestamp": 1703500200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 153,
+        "name": "Commissioners Cup",
+        "type": "cup",
+        "season": 2023,
+        "logo": "https://media-4.api-sports.io/basketball/leagues/153.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media-4.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2767,
+          "name": "Barangay Ginebra San Miguel",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2767.png"
+        },
+        "away": {
+          "id": 5648,
+          "name": "TNT Tropang Giga",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5648.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 13,
+          "quarter_2": 24,
+          "quarter_3": 22,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 86
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 16,
+          "quarter_3": 28,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 78
+        }
+      }
+    },
+    {
+      "id": 380913,
+      "date": "2023-12-25T11:30:00+00:00",
+      "time": "11:30",
+      "timestamp": 1703503800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "26",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 125,
+        "name": "WCBA Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/125.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2570,
+          "name": "Jiangsu Phoenix W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2570.png"
+        },
+        "away": {
+          "id": 2572,
+          "name": "Shandong W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2572.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 22,
+          "quarter_3": 17,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 75
+        },
+        "away": {
+          "quarter_1": 14,
+          "quarter_2": 16,
+          "quarter_3": 20,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 67
+        }
+      }
+    },
+    {
+      "id": 380914,
+      "date": "2023-12-25T11:30:00+00:00",
+      "time": "11:30",
+      "timestamp": 1703503800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "26",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 125,
+        "name": "WCBA Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/125.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2564,
+          "name": "Fujian W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2564.png"
+        },
+        "away": {
+          "id": 2576,
+          "name": "Tianjin W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2576.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 15,
+          "quarter_3": 15,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 70
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 22,
+          "quarter_3": 15,
+          "quarter_4": 12,
+          "over_time": null,
+          "total": 66
+        }
+      }
+    },
+    {
+      "id": 380915,
+      "date": "2023-12-25T11:30:00+00:00",
+      "time": "11:30",
+      "timestamp": 1703503800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "26",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 125,
+        "name": "WCBA Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/125.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 6268,
+          "name": "Daqing W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6268.png"
+        },
+        "away": {
+          "id": 2565,
+          "name": "Guangdong W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2565.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 12,
+          "quarter_2": 19,
+          "quarter_3": 13,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 57
+        },
+        "away": {
+          "quarter_1": 15,
+          "quarter_2": 21,
+          "quarter_3": 19,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 71
+        }
+      }
+    },
+    {
+      "id": 374364,
+      "date": "2023-12-25T11:35:00+00:00",
+      "time": "11:35",
+      "timestamp": 1703504100,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "21",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 31,
+        "name": "CBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/31.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 433,
+          "name": "Shanghai",
+          "logo": "https://media-4.api-sports.io/basketball/teams/433.png"
+        },
+        "away": {
+          "id": 440,
+          "name": "Zhejiang Guangsha",
+          "logo": "https://media-4.api-sports.io/basketball/teams/440.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 32,
+          "quarter_3": 21,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 120
+        },
+        "away": {
+          "quarter_1": 33,
+          "quarter_2": 19,
+          "quarter_3": 25,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 124
+        }
+      }
+    },
+    {
+      "id": 374365,
+      "date": "2023-12-25T11:35:00+00:00",
+      "time": "11:35",
+      "timestamp": 1703504100,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "21",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 31,
+        "name": "CBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/31.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 437,
+          "name": "Tianjin",
+          "logo": "https://media-4.api-sports.io/basketball/teams/437.png"
+        },
+        "away": {
+          "id": 427,
+          "name": "Jiangsu Dragons",
+          "logo": "https://media-4.api-sports.io/basketball/teams/427.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 17,
+          "quarter_2": 30,
+          "quarter_3": 29,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 108
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 12,
+          "quarter_3": 33,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 105
+        }
+      }
+    },
+    {
+      "id": 374366,
+      "date": "2023-12-25T11:35:00+00:00",
+      "time": "11:35",
+      "timestamp": 1703504100,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "21",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 31,
+        "name": "CBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/31.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 425,
+          "name": "Guangdong",
+          "logo": "https://media-4.api-sports.io/basketball/teams/425.png"
+        },
+        "away": {
+          "id": 435,
+          "name": "Shenzhen",
+          "logo": "https://media-4.api-sports.io/basketball/teams/435.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 32,
+          "quarter_3": 31,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 120
+        },
+        "away": {
+          "quarter_1": 22,
+          "quarter_2": 16,
+          "quarter_3": 26,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 93
+        }
+      }
+    },
+    {
+      "id": 374367,
+      "date": "2023-12-25T11:35:00+00:00",
+      "time": "11:35",
+      "timestamp": 1703504100,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "21",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 31,
+        "name": "CBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/31.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 423,
+          "name": "Beijing Royal Fighters",
+          "logo": "https://media-4.api-sports.io/basketball/teams/423.png"
+        },
+        "away": {
+          "id": 3187,
+          "name": "Ningbo Rockets",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3187.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 23,
+          "quarter_3": 28,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 98
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 30,
+          "quarter_3": 20,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 96
+        }
+      }
+    },
+    {
+      "id": 374368,
+      "date": "2023-12-25T11:35:00+00:00",
+      "time": "11:35",
+      "timestamp": 1703504100,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "21",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 31,
+        "name": "CBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/31.png"
+      },
+      "country": {
+        "id": 11,
+        "name": "China",
+        "code": "CN",
+        "flag": "https://media-4.api-sports.io/flags/cn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 431,
+          "name": "Qingdao",
+          "logo": "https://media-4.api-sports.io/basketball/teams/431.png"
+        },
+        "away": {
+          "id": 424,
+          "name": "Fujian",
+          "logo": "https://media-4.api-sports.io/basketball/teams/424.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 36,
+          "quarter_3": 19,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 104
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 14,
+          "quarter_3": 18,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 73
+        }
+      }
+    },
+    {
+      "id": 354637,
+      "date": "2023-12-25T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1703505600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 82,
+        "name": "VTB United League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/82.png"
+      },
+      "country": {
+        "id": 39,
+        "name": "Russia",
+        "code": "RU",
+        "flag": "https://media-4.api-sports.io/flags/ru.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5699,
+          "name": "Minsk",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5699.png"
+        },
+        "away": {
+          "id": 1022,
+          "name": "CSKA Moscow",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1022.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 17,
+          "quarter_3": 22,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 83
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 29,
+          "quarter_3": 29,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 97
+        }
+      }
+    },
+    {
+      "id": 382930,
+      "date": "2023-12-25T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1703507400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "11",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 238,
+        "name": "Super League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/238.png"
+      },
+      "country": {
+        "id": 65,
+        "name": "Iran",
+        "code": "IR",
+        "flag": "https://media-4.api-sports.io/flags/ir.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 6270,
+          "name": "Averta",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6270.png"
+        },
+        "away": {
+          "id": 3743,
+          "name": "Mes Kerman",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3743.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 22,
+          "quarter_3": 17,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 81
+        },
+        "away": {
+          "quarter_1": 20,
+          "quarter_2": 23,
+          "quarter_3": 23,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 79
+        }
+      }
+    },
+    {
+      "id": 382931,
+      "date": "2023-12-25T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1703507400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "11",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 238,
+        "name": "Super League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/238.png"
+      },
+      "country": {
+        "id": 65,
+        "name": "Iran",
+        "code": "IR",
+        "flag": "https://media-4.api-sports.io/flags/ir.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 6271,
+          "name": "Limondis",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6271.png"
+        },
+        "away": {
+          "id": 3751,
+          "name": "Zob Ahan",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3751.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 19,
+          "quarter_3": 15,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 76
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 22,
+          "quarter_3": 22,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 77
+        }
+      }
+    },
+    {
+      "id": 382932,
+      "date": "2023-12-25T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1703507400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "11",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 238,
+        "name": "Super League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/238.png"
+      },
+      "country": {
+        "id": 65,
+        "name": "Iran",
+        "code": "IR",
+        "flag": "https://media-4.api-sports.io/flags/ir.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3744,
+          "name": "Mes Rafsanjan",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3744.png"
+        },
+        "away": {
+          "id": 3742,
+          "name": "Mahram Tehran",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3742.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 21,
+          "quarter_3": 13,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 79
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 24,
+          "quarter_3": 28,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 94
+        }
+      }
+    },
+    {
+      "id": 382933,
+      "date": "2023-12-25T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1703507400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "11",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 238,
+        "name": "Super League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/238.png"
+      },
+      "country": {
+        "id": 65,
+        "name": "Iran",
+        "code": "IR",
+        "flag": "https://media-4.api-sports.io/flags/ir.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3746,
+          "name": "Padafan Raad",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3746.png"
+        },
+        "away": {
+          "id": 3747,
+          "name": "Palayesh Naft Abadan",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3747.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 15,
+          "quarter_2": 26,
+          "quarter_3": 13,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 68
+        },
+        "away": {
+          "quarter_1": 26,
+          "quarter_2": 26,
+          "quarter_3": 23,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 94
+        }
+      }
+    },
+    {
+      "id": 382934,
+      "date": "2023-12-25T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1703507400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "11",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 238,
+        "name": "Super League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/238.png"
+      },
+      "country": {
+        "id": 65,
+        "name": "Iran",
+        "code": "IR",
+        "flag": "https://media-4.api-sports.io/flags/ir.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3748,
+          "name": "Sanaye Hormozgan",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3748.png"
+        },
+        "away": {
+          "id": 3740,
+          "name": "Kalleh",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3740.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 12,
+          "quarter_3": 20,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 87
+        },
+        "away": {
+          "quarter_1": 23,
+          "quarter_2": 27,
+          "quarter_3": 24,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 101
+        }
+      }
+    },
+    {
+      "id": 375581,
+      "date": "2023-12-25T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1703512800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 57,
+        "name": "National League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/57.png"
+      },
+      "country": {
+        "id": 25,
+        "name": "Kazakhstan",
+        "code": "KZ",
+        "flag": "https://media-4.api-sports.io/flags/kz.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 769,
+          "name": "Kaspiy Aktau",
+          "logo": "https://media-4.api-sports.io/basketball/teams/769.png"
+        },
+        "away": {
+          "id": 768,
+          "name": "Atyrau",
+          "logo": "https://media-4.api-sports.io/basketball/teams/768.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 13,
+          "quarter_2": 20,
+          "quarter_3": 25,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 77
+        },
+        "away": {
+          "quarter_1": 26,
+          "quarter_2": 28,
+          "quarter_3": 30,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 102
+        }
+      }
+    },
+    {
+      "id": 383666,
+      "date": "2023-12-25T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1703512800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "7",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 103,
+        "name": "TB2L",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/103.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media-4.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5676,
+          "name": "Aykanat Spor",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5676.png"
+        },
+        "away": {
+          "id": 6284,
+          "name": "Bordo Sportif",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6284.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 18,
+          "quarter_2": 20,
+          "quarter_3": 18,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 76
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 26,
+          "quarter_3": 25,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 93
+        }
+      }
+    },
+    {
+      "id": 383772,
+      "date": "2023-12-25T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1703512800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "15",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 270,
+        "name": "TKBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/270.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media-4.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3970,
+          "name": "Fenerbahce 2 W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3970.png"
+        },
+        "away": {
+          "id": 5612,
+          "name": "Emlak Konut Gelisim 2 W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5612.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 20,
+          "quarter_3": 8,
+          "quarter_4": 11,
+          "over_time": null,
+          "total": 53
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 12,
+          "quarter_3": 17,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 73
+        }
+      }
+    },
+    {
+      "id": 354638,
+      "date": "2023-12-25T14:15:00+00:00",
+      "time": "14:15",
+      "timestamp": 1703513700,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 82,
+        "name": "VTB United League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/82.png"
+      },
+      "country": {
+        "id": 39,
+        "name": "Russia",
+        "code": "RU",
+        "flag": "https://media-4.api-sports.io/flags/ru.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1019,
+          "name": "Uralmash Ekaterinburg",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1019.png"
+        },
+        "away": {
+          "id": 1027,
+          "name": "Parma Perm",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1027.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 23,
+          "quarter_3": 21,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 81
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 19,
+          "quarter_3": 16,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 75
+        }
+      }
+    },
+    {
+      "id": 365591,
+      "date": "2023-12-25T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1703516400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "6",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 240,
+        "name": "WBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/240.png"
+      },
+      "country": {
+        "id": 22,
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-4.api-sports.io/flags/il.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3755,
+          "name": "Elitzur Ramla W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3755.png"
+        },
+        "away": {
+          "id": 3760,
+          "name": "Maccabi Ashdod W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3760.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 11,
+          "quarter_2": 20,
+          "quarter_3": 25,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 75
+        },
+        "away": {
+          "quarter_1": 22,
+          "quarter_2": 13,
+          "quarter_3": 14,
+          "quarter_4": 11,
+          "over_time": null,
+          "total": 60
+        }
+      }
+    },
+    {
+      "id": 383651,
+      "date": "2023-12-25T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1703516400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "16",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 102,
+        "name": "TBL",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/102.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media-4.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5658,
+          "name": "Ankaragucu Mamak",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5658.png"
+        },
+        "away": {
+          "id": 1297,
+          "name": "Bornova",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1297.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 28,
+          "quarter_2": 16,
+          "quarter_3": 23,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 88
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 24,
+          "quarter_3": 18,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 83
+        }
+      }
+    },
+    {
+      "id": 383667,
+      "date": "2023-12-25T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1703516400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "7",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 103,
+        "name": "TB2L",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/103.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media-4.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5681,
+          "name": "Istanbul Anka Spor",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5681.png"
+        },
+        "away": {
+          "id": 3198,
+          "name": "Ilkler Sehri Usak",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3198.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 25,
+          "quarter_2": 15,
+          "quarter_3": 19,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 74
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 19,
+          "quarter_3": 17,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 70
+        }
+      }
+    },
+    {
+      "id": 383773,
+      "date": "2023-12-25T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1703516400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "15",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 270,
+        "name": "TKBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/270.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media-4.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3967,
+          "name": "Botas 2 W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3967.png"
+        },
+        "away": {
+          "id": 6116,
+          "name": "Mersin Gelisim W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6116.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 12,
+          "quarter_2": 18,
+          "quarter_3": 17,
+          "quarter_4": 12,
+          "over_time": null,
+          "total": 59
+        },
+        "away": {
+          "quarter_1": 13,
+          "quarter_2": 20,
+          "quarter_3": 16,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 66
+        }
+      }
+    },
+    {
+      "id": 383774,
+      "date": "2023-12-25T15:30:00+00:00",
+      "time": "15:30",
+      "timestamp": 1703518200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "15",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 270,
+        "name": "TKBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/270.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media-4.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1724,
+          "name": "Bodrum W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1724.png"
+        },
+        "away": {
+          "id": 1249,
+          "name": "Adana BK W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1249.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 22,
+          "quarter_2": 17,
+          "quarter_3": 18,
+          "quarter_4": 11,
+          "over_time": null,
+          "total": 68
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 9,
+          "quarter_3": 12,
+          "quarter_4": 12,
+          "over_time": null,
+          "total": 54
+        }
+      }
+    },
+    {
+      "id": 369042,
+      "date": "2023-12-25T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1703520000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 83,
+        "name": "Premier League W",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/83.png"
+      },
+      "country": {
+        "id": 39,
+        "name": "Russia",
+        "code": "RU",
+        "flag": "https://media-4.api-sports.io/flags/ru.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1035,
+          "name": "Nika Siktivkar W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1035.png"
+        },
+        "away": {
+          "id": 2246,
+          "name": "UMMC Ekaterinburg W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2246.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 18,
+          "quarter_3": 20,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 74
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 20,
+          "quarter_3": 12,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 81
+        }
+      }
+    },
+    {
+      "id": 383697,
+      "date": "2023-12-25T16:00:00+00:00",
+      "time": "16:00",
+      "timestamp": 1703520000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "13",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 104,
+        "name": "Super Ligi",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/104.png"
+      },
+      "country": {
+        "id": 48,
+        "name": "Turkey",
+        "code": "TR",
+        "flag": "https://media-4.api-sports.io/flags/tr.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1269,
+          "name": "Darussafaka",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1269.png"
+        },
+        "away": {
+          "id": 1270,
+          "name": "Fenerbahce",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1270.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 15,
+          "quarter_3": 12,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 56
+        },
+        "away": {
+          "quarter_1": 29,
+          "quarter_2": 22,
+          "quarter_3": 25,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 98
+        }
+      }
+    },
+    {
+      "id": 384305,
+      "date": "2023-12-25T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1703521800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "9",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 122,
+        "name": "Premier League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/122.png"
+      },
+      "country": {
+        "id": 56,
+        "name": "Bahrain",
+        "code": "BH",
+        "flag": "https://media-4.api-sports.io/flags/bh.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2534,
+          "name": "Al Muharraq",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2534.png"
+        },
+        "away": {
+          "id": 1043,
+          "name": "Al Ittihad",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1043.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 32,
+          "quarter_3": 28,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 96
+        },
+        "away": {
+          "quarter_1": 30,
+          "quarter_2": 26,
+          "quarter_3": 22,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 102
+        }
+      }
+    },
+    {
+      "id": 357599,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "13",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 198,
+        "name": "ABA League",
+        "type": "cup",
+        "season": 2023,
+        "logo": "https://media-4.api-sports.io/basketball/leagues/198.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media-4.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3161,
+          "name": "Mega Basket",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3161.png"
+        },
+        "away": {
+          "id": 2556,
+          "name": "Igokea",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2556.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 19,
+          "quarter_2": 22,
+          "quarter_3": 30,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 92
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 13,
+          "quarter_3": 16,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 76
+        }
+      }
+    },
+    {
+      "id": 364045,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "12",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 51,
+        "name": "Super League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/51.png"
+      },
+      "country": {
+        "id": 22,
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-4.api-sports.io/flags/il.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 1566,
+          "name": "Bnei Herzliya",
+          "logo": "https://media-4.api-sports.io/basketball/teams/1566.png"
+        },
+        "away": {
+          "id": 2725,
+          "name": "Galil Elyon",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2725.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 17,
+          "quarter_3": 19,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 80
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 15,
+          "quarter_3": 10,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 66
+        }
+      }
+    },
+    {
+      "id": 365589,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "6",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 240,
+        "name": "WBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/240.png"
+      },
+      "country": {
+        "id": 22,
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-4.api-sports.io/flags/il.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5635,
+          "name": "Asa Jerusalem W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5635.png"
+        },
+        "away": {
+          "id": 6089,
+          "name": "Hapoel Jerusalem W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/6089.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 7,
+          "quarter_2": 18,
+          "quarter_3": 9,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 47
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 18,
+          "quarter_3": 22,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 80
+        }
+      }
+    },
+    {
+      "id": 365590,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "6",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 240,
+        "name": "WBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/240.png"
+      },
+      "country": {
+        "id": 22,
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-4.api-sports.io/flags/il.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3757,
+          "name": "Hapoel Petah Tikva W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3757.png"
+        },
+        "away": {
+          "id": 3761,
+          "name": "Maccabi Haifa W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3761.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 9,
+          "quarter_2": 32,
+          "quarter_3": 13,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 76
+        },
+        "away": {
+          "quarter_1": 14,
+          "quarter_2": 8,
+          "quarter_3": 19,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 61
+        }
+      }
+    },
+    {
+      "id": 365592,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "6",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 240,
+        "name": "WBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/240.png"
+      },
+      "country": {
+        "id": 22,
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-4.api-sports.io/flags/il.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3759,
+          "name": "Holon W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3759.png"
+        },
+        "away": {
+          "id": 3763,
+          "name": "Ramat Hasharon W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3763.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 15,
+          "quarter_2": 11,
+          "quarter_3": 12,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 54
+        },
+        "away": {
+          "quarter_1": 13,
+          "quarter_2": 17,
+          "quarter_3": 22,
+          "quarter_4": 10,
+          "over_time": null,
+          "total": 62
+        }
+      }
+    },
+    {
+      "id": 365593,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "6",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 240,
+        "name": "WBL Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/240.png"
+      },
+      "country": {
+        "id": 22,
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-4.api-sports.io/flags/il.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3762,
+          "name": "Maccabi Urban W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3762.png"
+        },
+        "away": {
+          "id": 3758,
+          "name": "Hapoel Rishon LeZion W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3758.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 18,
+          "quarter_3": 15,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 67
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 18,
+          "quarter_3": 9,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 64
+        }
+      }
+    },
+    {
+      "id": 366268,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "15",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 85,
+        "name": "First League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/85.png"
+      },
+      "country": {
+        "id": 41,
+        "name": "Serbia",
+        "code": "RS",
+        "flag": "https://media-4.api-sports.io/flags/rs.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5173,
+          "name": "Zlatibor",
+          "logo": "https://media-4.api-sports.io/basketball/teams/5173.png"
+        },
+        "away": {
+          "id": 2310,
+          "name": "Radnicki",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2310.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 24,
+          "quarter_2": 29,
+          "quarter_3": 18,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 92
+        },
+        "away": {
+          "quarter_1": 17,
+          "quarter_2": 18,
+          "quarter_3": 24,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 84
+        }
+      }
+    },
+    {
+      "id": 372590,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media-4.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 151,
+          "name": "New York Knicks",
+          "logo": "https://media-4.api-sports.io/basketball/teams/151.png"
+        },
+        "away": {
+          "id": 148,
+          "name": "Milwaukee Bucks",
+          "logo": "https://media-4.api-sports.io/basketball/teams/148.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 36,
+          "quarter_2": 26,
+          "quarter_3": 36,
+          "quarter_4": 31,
+          "over_time": null,
+          "total": 129
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 24,
+          "quarter_3": 36,
+          "quarter_4": 35,
+          "over_time": null,
+          "total": 122
+        }
+      }
+    },
+    {
+      "id": 383244,
+      "date": "2023-12-25T17:00:00+00:00",
+      "time": "17:00",
+      "timestamp": 1703523600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "5",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 64,
+        "name": "Prva A Liga",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/64.png"
+      },
+      "country": {
+        "id": 29,
+        "name": "Montenegro",
+        "code": "ME",
+        "flag": "https://media-4.api-sports.io/flags/me.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 839,
+          "name": "Primorje",
+          "logo": "https://media-4.api-sports.io/basketball/teams/839.png"
+        },
+        "away": {
+          "id": 840,
+          "name": "Studentski Centar",
+          "logo": "https://media-4.api-sports.io/basketball/teams/840.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 28,
+          "quarter_3": 21,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 84
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 19,
+          "quarter_3": 18,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 71
+        }
+      }
+    },
+    {
+      "id": 375737,
+      "date": "2023-12-25T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1703527200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "11",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 219,
+        "name": "Prvenstvo BiH Women",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/219.png"
+      },
+      "country": {
+        "id": 57,
+        "name": "Bosnia-and-Herzegovina",
+        "code": "BA",
+        "flag": "https://media-4.api-sports.io/flags/ba.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3565,
+          "name": "Mladi Krajisnik W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3565.png"
+        },
+        "away": {
+          "id": 3566,
+          "name": "Orlovi W",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3566.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 11,
+          "quarter_2": 14,
+          "quarter_3": 18,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 59
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 30,
+          "quarter_3": 13,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 87
+        }
+      }
+    },
+    {
+      "id": 375940,
+      "date": "2023-12-25T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1703527200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "12",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 123,
+        "name": "Prvenstvo BiH",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/123.png"
+      },
+      "country": {
+        "id": 57,
+        "name": "Bosnia-and-Herzegovina",
+        "code": "BA",
+        "flag": "https://media-4.api-sports.io/flags/ba.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2550,
+          "name": "Mrkonjic Grad",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2550.png"
+        },
+        "away": {
+          "id": 3010,
+          "name": "Borac Banja Luka",
+          "logo": "https://media-4.api-sports.io/basketball/teams/3010.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 13,
+          "quarter_3": 16,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 65
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 18,
+          "quarter_3": 16,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 69
+        }
+      }
+    },
+    {
+      "id": 383240,
+      "date": "2023-12-25T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1703527200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "4",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 64,
+        "name": "Prva A Liga",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/64.png"
+      },
+      "country": {
+        "id": 29,
+        "name": "Montenegro",
+        "code": "ME",
+        "flag": "https://media-4.api-sports.io/flags/me.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 2350,
+          "name": "Podgorica",
+          "logo": "https://media-4.api-sports.io/basketball/teams/2350.png"
+        },
+        "away": {
+          "id": 841,
+          "name": "Sutjeska",
+          "logo": "https://media-4.api-sports.io/basketball/teams/841.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 25,
+          "quarter_2": 16,
+          "quarter_3": 17,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 81
+        },
+        "away": {
+          "quarter_1": 19,
+          "quarter_2": 18,
+          "quarter_3": 14,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 73
+        }
+      }
+    },
+    {
+      "id": 363987,
+      "date": "2023-12-25T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1703530800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "2",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 51,
+        "name": "Super League",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/51.png"
+      },
+      "country": {
+        "id": 22,
+        "name": "Israel",
+        "code": "IL",
+        "flag": "https://media-4.api-sports.io/flags/il.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 678,
+          "name": "Hapoel Beer Sheva",
+          "logo": "https://media-4.api-sports.io/basketball/teams/678.png"
+        },
+        "away": {
+          "id": 687,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media-4.api-sports.io/basketball/teams/687.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 19,
+          "quarter_3": 23,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 75
+        },
+        "away": {
+          "quarter_1": 28,
+          "quarter_2": 19,
+          "quarter_3": 19,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 87
+        }
+      }
+    },
+    {
+      "id": 372591,
+      "date": "2023-12-25T19:30:00+00:00",
+      "time": "19:30",
+      "timestamp": 1703532600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media-4.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 139,
+          "name": "Denver Nuggets",
+          "logo": "https://media-4.api-sports.io/basketball/teams/139.png"
+        },
+        "away": {
+          "id": 141,
+          "name": "Golden State Warriors",
+          "logo": "https://media-4.api-sports.io/basketball/teams/141.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 29,
+          "quarter_2": 24,
+          "quarter_3": 39,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 120
+        },
+        "away": {
+          "quarter_1": 26,
+          "quarter_2": 28,
+          "quarter_3": 35,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 114
+        }
+      }
+    },
+    {
+      "id": 372592,
+      "date": "2023-12-25T22:00:00+00:00",
+      "time": "22:00",
+      "timestamp": 1703541600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Quarter 4",
+        "short": "Q4",
+        "timer": "12"
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2023-2024",
+        "logo": "https://media-4.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media-4.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 145,
+          "name": "Los Angeles Lakers",
+          "logo": "https://media-4.api-sports.io/basketball/teams/145.png"
+        },
+        "away": {
+          "id": 133,
+          "name": "Boston Celtics",
+          "logo": "https://media-4.api-sports.io/basketball/teams/133.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 34,
+          "quarter_3": 33,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 115
+        },
+        "away": {
+          "quarter_1": 32,
+          "quarter_2": 26,
+          "quarter_3": 41,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 126
+        }
+      }
+    }
+  ]
+}

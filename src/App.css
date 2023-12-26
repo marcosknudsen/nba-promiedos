@@ -1,0 +1,60 @@
+body{
+    font-family: Roboto,sans-serif,Arial,Helvetica;
+    width: 980px;
+    margin: auto;
+}
+
+#bayer a,
+#bman a{
+  text-decoration: none;
+  color: #fff;
+  text-shadow: #000 0.1em 0.1em 0.1em;
+  display: block;
+}
+
+#bayer,
+#bman{
+    background: green;
+    background-color: #68a54b;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    text-align: center;
+}
+
+#bayer{
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#bman{
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#partidos{
+    color: #fff;
+    display: flex;
+    width: 60%;
+    margin-left: 120px;
+}
+
+#titulo1{
+    width: 57%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1em;
+    background: #125e2a;
+    border: 1px solid #000;
+    margin-bottom: 1em;
+    float: left;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+}
+
+#principal{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
