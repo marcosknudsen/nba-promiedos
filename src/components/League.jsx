@@ -9,39 +9,40 @@ export default function League(props) {
   };
 
   useEffect(() => {
-    if (props.matches[0].country_name=="Europe")
-      setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png")
-    fetch(
-      "https://restcountries.com/v3.1/name/" + props.matches[0].country_name
-    )
-      .then((response) => response.json())
-      .then((response) => response[0].flags.png)
-      .then((response) => setFlag(response));
+    if (props.matches[0].country_name == "Europe")
+      setFlag(
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png"
+      );
+    else
+      fetch(
+        "https://restcountries.com/v3.1/name/" + props.matches[0].country_name
+      )
+        .then((response) => response.json())
+        .then((response) => response[0].flags.png)
+        .then((response) => setFlag(response));
   }, []);
 
   return (
     <table style={{ marginBottom: "20px", width: "100%" }}>
-      <thead>
-        <div
-          style={{
-            background: "#002d29",
-            color: "#fff",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            fontSize: "20px",
-          }}
-        >
-          <tr>
-            <td>
-              <img src={flag} style={imgStyle}></img>
-            </td>
-            <td>{props.matches[0].league_name}</td>
-            <td>
-              <img src={flag} style={imgStyle}></img>
-            </td>
-          </tr>
-        </div>
+      <thead
+        style={{
+          background: "#002d29",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          fontSize: "20px",
+        }}
+      >
+        <tr>
+          <td>
+            <img src={flag} style={imgStyle}></img>
+          </td>
+          <td>{props.matches[0].league_name}</td>
+          <td>
+            <img src={flag} style={imgStyle}></img>
+          </td>
+        </tr>
       </thead>
       <tbody>
         {props.matches.map((m) => {

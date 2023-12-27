@@ -3,15 +3,15 @@ import { FaSquarePlus } from "react-icons/fa6";
 export default function Match(props) {
   let homeScore = 0;
   let awayScore = 0;
-  homeScore += parseInt(props.scores["1stQuarter"][0]?.score_home);
-  homeScore += parseInt(props.scores["2ndQuarter"][0]?.score_home);
-  homeScore += parseInt(props.scores["3rdQuarter"][0]?.score_home);
-  homeScore += parseInt(props.scores["4thQuarter"][0]?.score_home);
+  homeScore += parseInt(props.scores["1stQuarter"][0]?.score_home??0);
+  homeScore += parseInt(props.scores["2ndQuarter"][0]?.score_home??0);
+  homeScore += parseInt(props.scores["3rdQuarter"][0]?.score_home??0);
+  homeScore += parseInt(props.scores["4thQuarter"][0]?.score_home??0);
 
-  awayScore += parseInt(props.scores["1stQuarter"][0]?.score_away);
-  awayScore += parseInt(props.scores["2ndQuarter"][0]?.score_away);
-  awayScore += parseInt(props.scores["3rdQuarter"][0]?.score_away);
-  awayScore += parseInt(props.scores["4thQuarter"][0]?.score_away);
+  awayScore += parseInt(props.scores["1stQuarter"][0]?.score_away??0);
+  awayScore += parseInt(props.scores["2ndQuarter"][0]?.score_away??0);
+  awayScore += parseInt(props.scores["3rdQuarter"][0]?.score_away??0);
+  awayScore += parseInt(props.scores["4thQuarter"][0]?.score_away??0);
 
   const style = {
     display: "flex",
@@ -92,16 +92,18 @@ export default function Match(props) {
           <b>{props.date}</b>
         </td>
       )}
-      {props.status == "Finished" && (
+      {(props.status == "Finished" || props.status == "After Over Time") && (
         <td style={dateStyleFinished}>
           <b>Fin</b>
         </td>
       )}
-      {props.status != "" && props.status != "Finished" && (
-        <td style={dateStylePlaying}>
-          <b>{props.status}</b>
-        </td>
-      )}
+      {props.status != "" &&
+        props.status != "Finished" &&
+        props.status != "After Over Time" && (
+          <td style={dateStylePlaying}>
+            <b>{props.status}</b>
+          </td>
+        )}
       <td style={teamStyle}>
         <div>
           <img src={props.team1logo} style={teamsStyleImg}></img>
