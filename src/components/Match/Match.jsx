@@ -18,10 +18,11 @@ export default function Match(props) {
     <tr className="match">
       <td
         className={
-          (props.status == "" && "date") ||
+          (props.status == "" && "coming") ||
           ((props.status == "Finished" || props.status == "After Over Time") &&
-            "finished date") ||
-          "playing date"
+            "finished") ||
+          (props.status=="Postponed" && "coming postponed") ||
+          "live"
         }
       >
         <b>

@@ -1,4 +1,4 @@
-.date {
+.coming {
   background: #155219;
   color: #fff;
   display: flex;
@@ -26,6 +26,10 @@
   justify-content: center;
   width: 60px;
   text-align: center;
+}
+
+.postponed{
+  font-size: 11px;
 }
 
 .score {
