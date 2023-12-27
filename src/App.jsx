@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import League from "./components/League";
+import League from "./components/League/League";
 
 function App() {
   const [matches, setMatches] = useState([]);
@@ -8,6 +8,10 @@ function App() {
   const [subscribedLeagues, setSuscribedLeagues] = useState([12]);
 
   useEffect(() => {
+    let today = new Date();
+    today =
+      today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+
     var requestOptions = {
       method: "GET",
       redirect: "follow",
@@ -16,14 +20,14 @@ function App() {
     fetch(
       `https://apiv2.allsportsapi.com/basketball/?met=Fixtures&APIkey=${
         import.meta.env.REACT_APP_TOKEN
-      }&from=2023-12-26&to=2023-12-26&timezone=America/Argentina/Buenos_Aires`,
+      }&from=${today}&to=${today}&timezone=America/Argentina/Buenos_Aires`,
       requestOptions
     )
       .then((response) => response.json())
       .then((result) => {
-        const games=result.result;
-        setMatches(games)
-        setLeagues([...new Set(games.map(m=>m.league_key))])
+        const games = result.result;
+        setMatches(games);
+        setLeagues([...new Set(games.map((m) => m.league_key))]);
       })
       .catch((error) => console.log("error", error));
   }, []);
