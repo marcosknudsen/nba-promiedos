@@ -20,8 +20,11 @@ function App() {
       requestOptions
     )
       .then((response) => response.json())
-      .then((result) => setMatches(result.result))
-      .then(() => setLeagues([...new Set(matches.map((m) => m.league_key))]))
+      .then((result) => {
+        const games=result.result;
+        setMatches(games)
+        setLeagues([...new Set(games.map(m=>m.league_key))])
+      })
       .catch((error) => console.log("error", error));
   }, []);
 
