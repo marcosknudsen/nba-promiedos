@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import League from "./components/League/League";
+import order from "../order.json";
 
 function App() {
   const [matches, setMatches] = useState([]);
@@ -10,7 +11,11 @@ function App() {
   useEffect(() => {
     let today = new Date();
     today =
-      today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+      today.getFullYear() +
+      "-" +
+      (today.getMonth() + 1) +
+      "-" +
+      today.getDate();
 
     var requestOptions = {
       method: "GET",
@@ -27,7 +32,7 @@ function App() {
       .then((result) => {
         const games = result.result;
         setMatches(games);
-        setLeagues([...new Set(games.map((m) => m.league_key))]);
+        setLeagues([...new Set(games.map((m) => m.league_key))].sort((a,b)=>getOrder(a,order.leagues)-getOrder(b,order.leagues)));
       })
       .catch((error) => console.log("error", error));
   }, []);
@@ -85,3 +90,10 @@ function App() {
   );
 }
 export default App;
+
+function getOrder(value,array){
+  if (!array.includes(value))
+    return 60000
+  else
+    return array.indexOf(value)
+}
