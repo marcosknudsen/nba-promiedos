@@ -7,6 +7,7 @@ function App() {
   const [matches, setMatches] = useState([]);
   const [leagues, setLeagues] = useState([]);
   const [subscribedLeagues, setSuscribedLeagues] = useState([12]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     let today = new Date();
@@ -32,8 +33,13 @@ function App() {
       .then((result) => {
         const games = result.result;
         setMatches(games);
-        setLeagues([...new Set(games.map((m) => m.league_key))].sort((a,b)=>getOrder(a,order.leagues)-getOrder(b,order.leagues)));
+        setLeagues(
+          [...new Set(games.map((m) => m.league_key))].sort(
+            (a, b) => getOrder(a, order.leagues) - getOrder(b, order.leagues)
+          )
+        );
       })
+      .then(() => setLoading(false))
       .catch((error) => console.log("error", error));
   }, []);
 
@@ -74,26 +80,30 @@ function App() {
             </a>
           </div>
         </div>
-        <div>
-          {leagues.map((l) => {
+        {loading && (
+          <div className="content">
+            <div class="loader"></div>
+          </div>
+        )}
+        {!loading &&
+          leagues.map((l) => {
             return (
-              <League
-                matches={matches.filter((m) => m.league_key == l)}
-                id={l}
-                key={l}
-              ></League>
+              <div>
+                <League
+                  matches={matches.filter((m) => m.league_key == l)}
+                  id={l}
+                  key={l}
+                ></League>
+              </div>
             );
           })}
-        </div>
       </div>
     </>
   );
 }
 export default App;
 
-function getOrder(value,array){
-  if (!array.includes(value))
-    return 60000
-  else
-    return array.indexOf(value)
+function getOrder(value, array) {
+  if (!array.includes(value)) return 60000;
+  else return array.indexOf(value);
 }
