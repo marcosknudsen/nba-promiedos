@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   envPrefix:"REACT_APP_",
   plugins: [react()],
-  base:"https://marcosknudsen.github.io/nba-promiedos/"
+  base:"/nba-promiedos/"
 })
