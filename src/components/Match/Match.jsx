@@ -39,8 +39,8 @@ export default function Match(props) {
         <div>{props.team1}</div>
       </td>
       <>
-        <td className="score">{props.status != "" ? homeScore : "-"}</td>
-        <td className="score">{props.status != "" ? awayScore : "-"}</td>
+        <td className="score">{props.status != "" && props.status!="Postponed"? homeScore : "-"}</td>
+        <td className="score">{props.status != "" && props.status!="Postponed"? awayScore : "-"}</td>
       </>
       <td className="team">
         <div>
