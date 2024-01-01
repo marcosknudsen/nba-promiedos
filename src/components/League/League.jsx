@@ -20,7 +20,7 @@ export default function League(props) {
       )
         .then((response) => response.json())
         .then((response) => setFlag(response[0]?.flags.png))
-        .catch((error) => console.log(error));
+                .catch((error) => console.log(error));
   }, []);
 
   return (
@@ -37,7 +37,7 @@ export default function League(props) {
         </tr>
       </thead>
       <tbody>
-        {props.matches.map((m) => {
+        {props.matches.sort((a,b)=>a.event_time>b.event_time?1:-1).map((m) => {
           return (
             <Match
               key={m.event_key}
