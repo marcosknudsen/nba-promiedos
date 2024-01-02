@@ -57,26 +57,20 @@ function Tomorrow() {
             display: "flex",
             flexDirection: "row",
             justifyContent: "center",
+            transform:"translateX(-80px)"
           }}
         >
           <div id="bayer">
             <a href="/">
               <img src="https://www.promiedos.com.ar/images/menu/arrow-left.png"></img>
               <br />
-              Ayer
+              Hoy
             </a>
           </div>
           <div id="titulo1">
             PARTIDOS
             <br />
-            HOY
-          </div>
-          <div id="bman">
-            <a>
-              <img src="https://www.promiedos.com.ar/images/menu/arrow-right.png"></img>
-              <br />
-              Man
-            </a>
+            MAÑANA
           </div>
         </div>
         {loading && (
