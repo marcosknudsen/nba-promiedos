@@ -96,6 +96,13 @@ function Today() {
             );
           })}
       </div>
+      {!loading && (
+        <footer>
+          Este sitio web es un proyecto personal inspirado en el mítico{" "}
+          <a href="https://www.promiedos.com.ar/">Promiedos</a> con la única
+          intencion de aprender a usar las tecnologias implicadas.
+        </footer>
+      )}
     </>
   );
 }

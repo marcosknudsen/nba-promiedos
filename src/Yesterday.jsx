@@ -10,7 +10,7 @@ function Yesterday() {
 
   useEffect(() => {
     let today = new Date();
-    today.setDate(today.getDate()-1)
+    today.setDate(today.getDate() - 1);
     today =
       today.getFullYear() +
       "-" +
@@ -57,7 +57,7 @@ function Yesterday() {
             display: "flex",
             flexDirection: "row",
             justifyContent: "center",
-            transform:"translateX(80px)"
+            transform: "translateX(80px)",
           }}
         >
           <div id="titulo1">
@@ -91,6 +91,13 @@ function Yesterday() {
             );
           })}
       </div>
+      {!loading && (
+        <footer>
+          Este sitio web es un proyecto personal inspirado en el mítico{" "}
+          <a href="https://www.promiedos.com.ar/">Promiedos</a> con la única
+          intencion de aprender a usar las tecnologias implicadas.
+        </footer>
+      )}
     </>
   );
 }
