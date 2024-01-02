@@ -82,7 +82,7 @@ function App() {
         </div>
         {loading && (
           <div className="content">
-            <div class="loader"></div>
+            <div className="loader"></div>
           </div>
         )}
         {!loading &&
