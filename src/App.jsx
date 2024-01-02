@@ -50,7 +50,6 @@ function App() {
           <img src="https://promiedos.nyc3.cdn.digitaloceanspaces.com/menu/logo2.jpg"></img>
         </a>
       </div>
-      <div className="accordian"></div>
       <div id="principal" style={{ display: "flex", justifyContent: "center" }}>
         <div
           id="menu"
