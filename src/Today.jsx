@@ -46,7 +46,7 @@ function Today() {
     <>
       <div className="banner">
         <a href="/">
-          <img src="https://promiedos.nyc3.cdn.digitaloceanspaces.com/menu/logo2.jpg"></img>
+          <img src="./src/assets/promiedos_basquet.png"></img>
         </a>
       </div>
       <div id="principal" style={{ display: "flex", justifyContent: "center" }}>
