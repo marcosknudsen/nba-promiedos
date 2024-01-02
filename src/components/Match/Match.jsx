@@ -21,7 +21,7 @@ export default function Match(props) {
           (props.status == "" && "coming") ||
           ((props.status == "Finished" || props.status == "After Over Time") &&
             "finished") ||
-          (props.status=="Postponed" && "coming postponed") ||
+          (props.status=="Postponed" && "postponed") ||
           "live"
         }
       >
