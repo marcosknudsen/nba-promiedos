@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Today.css";
 import League from "./components/League/League";
 import order from "../order.json";
+import logo from "../src/assets/promiedos_basquet.png"
 
 function Yesterday() {
   const [matches, setMatches] = useState([]);
@@ -47,7 +48,7 @@ function Yesterday() {
     <>
       <div className="banner">
         <a href="/">
-          <img src="./src/assets/promiedos_basquet.png"></img>
+          <img src={logo}></img>
         </a>
       </div>
       <div id="principal" style={{ display: "flex", justifyContent: "center" }}>
