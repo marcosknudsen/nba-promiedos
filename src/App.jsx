@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/nba-promiedos/" element={<Today/>} />
-        <Route path="/nba-promiedos/tomorrow" element={<Tomorrow/>} />
-        <Route path="/nba-promiedos/yesterday" element={<Yesterday/>} />
+        <Route path="/" element={<Today/>} />
+        <Route path="/tomorrow" element={<Tomorrow/>} />
+        <Route path="/yesterday" element={<Yesterday/>} />
       </Routes>
     </>
   );
