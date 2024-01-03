@@ -17,12 +17,12 @@ export default function Match(props) {
   return (
     <tr className="match">
       <td
-        className={
+        className={"date " +(
           (props.status == "" && "coming") ||
           ((props.status == "Finished" || props.status == "After Over Time") &&
             "finished") ||
           (props.status=="Postponed" && "postponed") ||
-          "live"
+          "live")
         }
       >
         <b>
@@ -33,23 +33,23 @@ export default function Match(props) {
         </b>
       </td>
       <td className="team">
-        <div>
+        <div style={{display:"flex",justifyContent:"center"}}>
           <img src={props.team1logo} className="teamLogo"></img>
         </div>
-        <div>{props.team1}</div>
+        <div style={{textAlign:"center"}}>{props.team1}</div>
       </td>
       <>
-        <td className="score">{props.status != "" && props.status!="Postponed"? homeScore : "-"}</td>
-        <td className="score">{props.status != "" && props.status!="Postponed"? awayScore : "-"}</td>
+        <td className="score" style={{marginRight:"10px"}}>{props.status != "" && props.status!="Postponed"? homeScore : "-"}</td>
+        <td className="score" style={{marginLeft:"10px"}}>{props.status != "" && props.status!="Postponed"? awayScore : "-"}</td>
       </>
       <td className="team">
-        <div>
+        <div style={{display:"flex",justifyContent:"center"}}>
           <img src={props.team2logo} className="teamLogo"></img>
         </div>
-        <div>{props.team2}</div>
+        <div style={{textAlign:"center"}}>{props.team2}</div>
       </td>
       <td className="info">
-        <FaSquarePlus></FaSquarePlus>
+        <FaSquarePlus/>
       </td>
     </tr>
   );

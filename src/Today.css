@@ -1,11 +1,11 @@
-body{
-    font-family: Roboto,sans-serif,Arial,Helvetica;
-    width: 980px;
-    margin: auto;
+body {
+  font-family: Roboto, sans-serif, Arial, Helvetica;
+  width: 100%;
+  margin: auto;
 }
 
 #bayer a,
-#bman a{
+#bman a {
   text-decoration: none;
   color: #fff;
   text-shadow: #000 0.1em 0.1em 0.1em;
@@ -13,89 +13,115 @@ body{
 }
 
 #bayer,
-#bman{
-    background: green;
-    background-color: #68a54b;
-    border: 1px solid #000;
-    cursor: pointer;
-    width: 20%;
-    float: left;
-    font-size: 1em;
-    text-align: center;
+#bman {
+  background: green;
+  background-color: #68a54b;
+  border: 1px solid #000;
+  cursor: pointer;
+  width: 20%;
+  float: left;
+  font-size: 1em;
+  text-align: center;
 }
 
-#menu{
-    display: block;
-    margin-bottom: 1em;
+#menu {
+  display: block;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-size: 1rem;
 }
 
-#bayer{
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+#bayer {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
 }
 
-#bman{
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+#bman {
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 
-#partidos{
-    color: #fff;
-    display: flex;
-    width: 60%;
-    margin-left: 120px;
+#partidos {
+  color: #fff;
+  display: flex;
+  width: 60%;
+  margin-left: 120px;
 }
 
-#titulo1{
-    width: 57%;
-    color: #fff;
-    text-align: center;
-    font-size: 1.1em;
-    background: #125e2a;
-    border: 1px solid #000;
-    float: left;
-    text-shadow: #000 0.1em 0.1em 0.1em;
+#titulo1 {
+  width: 57%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1em;
+  background: #125e2a;
+  border: 1px solid #000;
+  float: left;
+  text-shadow: #000 0.1em 0.1em 0.1em;
 }
 
-#principal{
-    width: 800px;
-    display: flex;
-    flex-direction: column;
+#principal {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HTML: <div class="loader"></div> */
 .loader {
-    width: 12px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: #FFF;
-    clip-path: inset(-220%);
-    animation: l28 2s infinite linear;
-    color: #FFF;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #fff;
+  clip-path: inset(-220%);
+  animation: l28 2s infinite linear;
+  color: #fff;
+}
+@keyframes l28 {
+  0% {
+    box-shadow: 0 0 0 0, 40px 0, -40px 0, 0 40px, 0 -40px;
   }
-  @keyframes l28 {
-    0%  {box-shadow:0 0 0 0   , 40px 0,-40px 0,0 40px,0 -40px}
-    10% {box-shadow:0 0 0 0   , 12px 0,-40px 0,0 40px,0 -40px}
-    20% {box-shadow:0 0 0 4px , 0px  0,-40px 0,0 40px,0 -40px}
-    30% {box-shadow:0 0 0 4px , 0px  0,-12px 0,0 40px,0 -40px}
-    40% {box-shadow:0 0 0 8px , 0px  0,  0px 0,0 40px,0 -40px}
-    50% {box-shadow:0 0 0 8px , 0px  0,  0px 0,0 12px,0 -40px}
-    60% {box-shadow:0 0 0 12px, 0px  0,  0px 0,0  0px,0 -40px}
-    70% {box-shadow:0 0 0 12px, 0px  0,  0px 0,0  0px,0 -12px}
-    80% {box-shadow:0 0 0 16px, 0px  0,  0px 0,0  0px,0  0px }
-    90%,
-    100%{box-shadow:0 0 0 0   , 40px 0,-40px 0,0 40px,0 -40px}
+  10% {
+    box-shadow: 0 0 0 0, 12px 0, -40px 0, 0 40px, 0 -40px;
   }
-  
-.content{
-    height: 2000px;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    height: 100%;
-    width: 100%;
+  20% {
+    box-shadow: 0 0 0 4px, 0px 0, -40px 0, 0 40px, 0 -40px;
+  }
+  30% {
+    box-shadow: 0 0 0 4px, 0px 0, -12px 0, 0 40px, 0 -40px;
+  }
+  40% {
+    box-shadow: 0 0 0 8px, 0px 0, 0px 0, 0 40px, 0 -40px;
+  }
+  50% {
+    box-shadow: 0 0 0 8px, 0px 0, 0px 0, 0 12px, 0 -40px;
+  }
+  60% {
+    box-shadow: 0 0 0 12px, 0px 0, 0px 0, 0 0px, 0 -40px;
+  }
+  70% {
+    box-shadow: 0 0 0 12px, 0px 0, 0px 0, 0 0px, 0 -12px;
+  }
+  80% {
+    box-shadow: 0 0 0 16px, 0px 0, 0px 0, 0 0px, 0 0px;
+  }
+  90%,
+  100% {
+    box-shadow: 0 0 0 0, 40px 0, -40px 0, 0 40px, 0 -40px;
+  }
 }
 
-.banner{
-    width: 100%;
+.content {
+  height: 2000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  height: 100%;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
 }

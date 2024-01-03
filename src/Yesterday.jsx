@@ -54,12 +54,6 @@ function Yesterday() {
       <div id="principal" style={{ display: "flex", justifyContent: "center" }}>
         <div
           id="menu"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            transform: "translateX(80px)",
-          }}
         >
           <div id="titulo1">
             PARTIDOS

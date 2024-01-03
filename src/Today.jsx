@@ -50,14 +50,9 @@ function Today() {
           <img src={logo}></img>
         </a>
       </div>
-      <div id="principal" style={{ display: "flex", justifyContent: "center" }}>
+      <div id="principal">
         <div
           id="menu"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-          }}
         >
           <div id="bayer">
             <a href="yesterday">

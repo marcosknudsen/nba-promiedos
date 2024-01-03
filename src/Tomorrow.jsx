@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Today.css";
 import League from "./components/League/League";
 import order from "../order.json";
-import logo from "../src/assets/promiedos_basquet.png"
+import logo from "../src/assets/promiedos_basquet.png";
 
 function Tomorrow() {
   const [matches, setMatches] = useState([]);
@@ -52,15 +52,7 @@ function Tomorrow() {
         </a>
       </div>
       <div id="principal" style={{ display: "flex", justifyContent: "center" }}>
-        <div
-          id="menu"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            transform: "translateX(-80px)",
-          }}
-        >
+        <div id="menu">
           <div id="bayer">
             <a href="/">
               <img src="https://www.promiedos.com.ar/images/menu/arrow-left.png"></img>

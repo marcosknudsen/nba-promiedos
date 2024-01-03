@@ -24,7 +24,7 @@ export default function League(props) {
   }, []);
 
   return (
-    <table style={{ marginBottom: "20px", width: "100%" }}>
+    <table className="league">
       <thead className="header">
         <tr>
           <td>
