@@ -74,7 +74,7 @@ function Tomorrow() {
         {!loading &&
           leagues.map((l) => {
             return (
-              <div>
+              <div className="league">
                 <League
                   matches={matches.filter((m) => m.league_key == l)}
                   id={l}
